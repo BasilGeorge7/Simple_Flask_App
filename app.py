@@ -4,6 +4,6 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "CI/CD Docker Deployment Successful V-2"
+    return "CI/CD Docker Deployment Successful V-1"
 
 app.run(host='0.0.0.0', port=5000)
